@@ -1,0 +1,118 @@
+:root{
+    --font: #DC143C;
+    --secun: #008080;
+    --prime: #4169E1;
+    --negro: #000000; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-menu{
+    background: var(--negro);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-titulo{
+    font-size: 1rem;
+}
+
+span{
+    font-size: 1.6rem;
+    color: var(--font);
+}
+
+.contenedor-titulo h1{
+    color: white;
+}
+ 
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+.content-font{
+    background: url(font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 2rem;
+}
+
+
+.contenedor-titular{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 15rem;
+    margin-right: 90rem;
+}
+
+.ver-mas-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
+  .ver-mas-btn span {
+    margin-left: .5rem;
+    color: white;
+  }
+  
+
+.cont-service h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contenedor-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background: var(--negro);
+    padding: 4rem;
+}
+
+.creadores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
